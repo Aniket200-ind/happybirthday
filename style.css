@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+body{
+    /* background: #80ebb9; */
+    background: #f3e0a2;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card{
+    background: #eea3a3de;
+    border-radius: 7px;
+    height: 85vh;
+    width: 80vw;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16) 0 3px 6px rgba(0, 0, 0, 0.24) ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5em;
+    box-shadow: 10px 10px rgba(224, 10, 10, 0.623);
+}
+
+img.birthday{
+    max-height: 40vh;
+    
+}
+
+h1{
+    font-family: 'Hurricane', cursive;
+    font-size: 4vw;
+    text-decoration: underline double rgb(3, 19, 245);
+    color: crimson;
+}
+
+.muted{
+    opacity: 0.8;
+    font-family: 'Passions Conflict', cursive;
+    font-size: 5vh;
+    /* text-decoration: underline wavy rgb(166, 240, 30); */
+    color: indigo;
+    margin: 0;
+    padding: 0;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+
+}
+
+p{
+  font-family: 'Bebas Neue', cursive;
+  font-size: x-large;
+  color: rgba(54, 102, 14, 0.74);
+  text-shadow: rgb(50, 228, 175) 2px 2.8px;
+}
+
+@media only screen and (max-width: 1000px)  {
+  h1{
+    font-size: 5vh;
+  }
+
+  .muted{
+    font-size: 6vh;
+  }
+}
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px darkviolet, 0 0 20px darkviolet, 0 0 30px darkviolet, 0 0 40px darkviolet, 0 0 50px darkviolet, 0 0 60px darkviolet, 0 0 70px darkviolet;
+    }
+    to {
+      text-shadow: 0 0 20px darkviolet, 0 0 30px darkviolet, 0 0 40px darkviolet, 0 0 50px darkviolet, 0 0 60px darkviolet, 0 0 70px darkviolet, 0 0 80px darkviolet;
+    }
+  }
